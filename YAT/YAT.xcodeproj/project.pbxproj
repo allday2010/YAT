@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9095C3B72119469000FDF988 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095C3B62119469000FDF988 /* AppDelegate.m */; };
+		9095C3BA2119469000FDF988 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095C3B92119469000FDF988 /* ViewController.m */; };
+		9095C3BD2119469000FDF988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9095C3BB2119469000FDF988 /* Main.storyboard */; };
+		9095C3BF2119469100FDF988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9095C3BE2119469100FDF988 /* Assets.xcassets */; };
+		9095C3C22119469100FDF988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9095C3C02119469100FDF988 /* LaunchScreen.storyboard */; };
+		9095C3C52119469100FDF988 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095C3C42119469100FDF988 /* main.m */; };
+		9095C3CF2119469100FDF988 /* YATTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095C3CE2119469100FDF988 /* YATTests.m */; };
+		9095C3DA2119469100FDF988 /* YATUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095C3D92119469100FDF988 /* YATUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9095C3CB2119469100FDF988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9095C3AA2119469000FDF988 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9095C3B12119469000FDF988;
+			remoteInfo = YAT;
+		};
+		9095C3D62119469100FDF988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9095C3AA2119469000FDF988 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9095C3B12119469000FDF988;
+			remoteInfo = YAT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9095C3B22119469000FDF988 /* YAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9095C3B52119469000FDF988 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9095C3B62119469000FDF988 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9095C3B82119469000FDF988 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9095C3B92119469000FDF988 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9095C3BC2119469000FDF988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9095C3BE2119469100FDF988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9095C3C12119469100FDF988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9095C3C32119469100FDF988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9095C3C42119469100FDF988 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9095C3CA2119469100FDF988 /* YATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YATTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9095C3CE2119469100FDF988 /* YATTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YATTests.m; sourceTree = "<group>"; };
+		9095C3D02119469100FDF988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9095C3D52119469100FDF988 /* YATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YATUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9095C3D92119469100FDF988 /* YATUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YATUITests.m; sourceTree = "<group>"; };
+		9095C3DB2119469100FDF988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9095C3AF2119469000FDF988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9095C3C72119469100FDF988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9095C3D22119469100FDF988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9095C3A92119469000FDF988 = {
+			isa = PBXGroup;
+			children = (
+				9095C3B42119469000FDF988 /* YAT */,
+				9095C3CD2119469100FDF988 /* YATTests */,
+				9095C3D82119469100FDF988 /* YATUITests */,
+				9095C3B32119469000FDF988 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9095C3B32119469000FDF988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9095C3B22119469000FDF988 /* YAT.app */,
+				9095C3CA2119469100FDF988 /* YATTests.xctest */,
+				9095C3D52119469100FDF988 /* YATUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9095C3B42119469000FDF988 /* YAT */ = {
+			isa = PBXGroup;
+			children = (
+				9095C3B52119469000FDF988 /* AppDelegate.h */,
+				9095C3B62119469000FDF988 /* AppDelegate.m */,
+				9095C3B82119469000FDF988 /* ViewController.h */,
+				9095C3B92119469000FDF988 /* ViewController.m */,
+				9095C3BB2119469000FDF988 /* Main.storyboard */,
+				9095C3BE2119469100FDF988 /* Assets.xcassets */,
+				9095C3C02119469100FDF988 /* LaunchScreen.storyboard */,
+				9095C3C32119469100FDF988 /* Info.plist */,
+				9095C3C42119469100FDF988 /* main.m */,
+			);
+			path = YAT;
+			sourceTree = "<group>";
+		};
+		9095C3CD2119469100FDF988 /* YATTests */ = {
+			isa = PBXGroup;
+			children = (
+				9095C3CE2119469100FDF988 /* YATTests.m */,
+				9095C3D02119469100FDF988 /* Info.plist */,
+			);
+			path = YATTests;
+			sourceTree = "<group>";
+		};
+		9095C3D82119469100FDF988 /* YATUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9095C3D92119469100FDF988 /* YATUITests.m */,
+				9095C3DB2119469100FDF988 /* Info.plist */,
+			);
+			path = YATUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9095C3B12119469000FDF988 /* YAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9095C3DE2119469100FDF988 /* Build configuration list for PBXNativeTarget "YAT" */;
+			buildPhases = (
+				9095C3AE2119469000FDF988 /* Sources */,
+				9095C3AF2119469000FDF988 /* Frameworks */,
+				9095C3B02119469000FDF988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YAT;
+			productName = YAT;
+			productReference = 9095C3B22119469000FDF988 /* YAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9095C3C92119469100FDF988 /* YATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9095C3E12119469100FDF988 /* Build configuration list for PBXNativeTarget "YATTests" */;
+			buildPhases = (
+				9095C3C62119469100FDF988 /* Sources */,
+				9095C3C72119469100FDF988 /* Frameworks */,
+				9095C3C82119469100FDF988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9095C3CC2119469100FDF988 /* PBXTargetDependency */,
+			);
+			name = YATTests;
+			productName = YATTests;
+			productReference = 9095C3CA2119469100FDF988 /* YATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9095C3D42119469100FDF988 /* YATUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9095C3E42119469100FDF988 /* Build configuration list for PBXNativeTarget "YATUITests" */;
+			buildPhases = (
+				9095C3D12119469100FDF988 /* Sources */,
+				9095C3D22119469100FDF988 /* Frameworks */,
+				9095C3D32119469100FDF988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9095C3D72119469100FDF988 /* PBXTargetDependency */,
+			);
+			name = YATUITests;
+			productName = YATUITests;
+			productReference = 9095C3D52119469100FDF988 /* YATUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9095C3AA2119469000FDF988 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = allday;
+				TargetAttributes = {
+					9095C3B12119469000FDF988 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9095C3C92119469100FDF988 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9095C3B12119469000FDF988;
+					};
+					9095C3D42119469100FDF988 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9095C3B12119469000FDF988;
+					};
+				};
+			};
+			buildConfigurationList = 9095C3AD2119469000FDF988 /* Build configuration list for PBXProject "YAT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9095C3A92119469000FDF988;
+			productRefGroup = 9095C3B32119469000FDF988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9095C3B12119469000FDF988 /* YAT */,
+				9095C3C92119469100FDF988 /* YATTests */,
+				9095C3D42119469100FDF988 /* YATUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9095C3B02119469000FDF988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095C3C22119469100FDF988 /* LaunchScreen.storyboard in Resources */,
+				9095C3BF2119469100FDF988 /* Assets.xcassets in Resources */,
+				9095C3BD2119469000FDF988 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9095C3C82119469100FDF988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9095C3D32119469100FDF988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9095C3AE2119469000FDF988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095C3BA2119469000FDF988 /* ViewController.m in Sources */,
+				9095C3C52119469100FDF988 /* main.m in Sources */,
+				9095C3B72119469000FDF988 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9095C3C62119469100FDF988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095C3CF2119469100FDF988 /* YATTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9095C3D12119469100FDF988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9095C3DA2119469100FDF988 /* YATUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9095C3CC2119469100FDF988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9095C3B12119469000FDF988 /* YAT */;
+			targetProxy = 9095C3CB2119469100FDF988 /* PBXContainerItemProxy */;
+		};
+		9095C3D72119469100FDF988 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9095C3B12119469000FDF988 /* YAT */;
+			targetProxy = 9095C3D62119469100FDF988 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9095C3BB2119469000FDF988 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9095C3BC2119469000FDF988 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9095C3C02119469100FDF988 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9095C3C12119469100FDF988 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9095C3DC2119469100FDF988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9095C3DD2119469100FDF988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9095C3DF2119469100FDF988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allday.YAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9095C3E02119469100FDF988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allday.YAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9095C3E22119469100FDF988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allday.YATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YAT.app/YAT";
+			};
+			name = Debug;
+		};
+		9095C3E32119469100FDF988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YATTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allday.YATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YAT.app/YAT";
+			};
+			name = Release;
+		};
+		9095C3E52119469100FDF988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YATUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allday.YATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YAT;
+			};
+			name = Debug;
+		};
+		9095C3E62119469100FDF988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YATUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allday.YATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YAT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9095C3AD2119469000FDF988 /* Build configuration list for PBXProject "YAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9095C3DC2119469100FDF988 /* Debug */,
+				9095C3DD2119469100FDF988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9095C3DE2119469100FDF988 /* Build configuration list for PBXNativeTarget "YAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9095C3DF2119469100FDF988 /* Debug */,
+				9095C3E02119469100FDF988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9095C3E12119469100FDF988 /* Build configuration list for PBXNativeTarget "YATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9095C3E22119469100FDF988 /* Debug */,
+				9095C3E32119469100FDF988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9095C3E42119469100FDF988 /* Build configuration list for PBXNativeTarget "YATUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9095C3E52119469100FDF988 /* Debug */,
+				9095C3E62119469100FDF988 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9095C3AA2119469000FDF988 /* Project object */;
+}
